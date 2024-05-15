@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Immersive X</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .header img {
+            height: 80px; /* Increased logo size */
+        }
+        .nav {
+            display: flex;
+            gap: 20px;
+        }
+        .nav a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .login {
+            background-color: #00bfa5;
+            padding: 10px 20px;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        .main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+        .main h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        .main p {
+            font-size: 18px;
+            color: #777;
+            margin-bottom: 20px;
+        }
+        .try-now {
+            background-color: #00bfa5;
+            padding: 15px 30px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            text-decoration: none;
+        }
+        .images {
+            display: flex;
+            gap: 20px;
+            margin-top: 40px;
+        }
+        .images img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            color: #777;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="assets/images/logo.png" alt="Immersive X Logo">
+        <div class="nav">
+            <a href="#">Home</a>
+            <a href="index.html">Text to Image</a>
+            <a href="#">Team</a>
+            <a href="#">Contact</a>
+        </div>
+        <button class="login">Login</button>
+    </div>
+    <div class="main">
+        <h1>WATCH YOUR WORDS COME TO LIFE!</h1>
+        <p style="font-style: italic; color: #333;">"Where imagination meets reality."</p> <!-- Catchy line -->
+        <a href="index.html" class="try-now">Try Now</a>
+        <div class="images">
+            <img src="assets/images/cat.png" alt="Cat Image">
+            <img src="assets/images/robot.png" alt="Robot Image">
+            <img src="assets/images/girl.png" alt="Person Image">
+        </div>
+    </div>
+    <div class="footer">
+        <p>Text to Words | Easily Accessible | HD Images</p>
+    </div>
+</body>
+</html>
